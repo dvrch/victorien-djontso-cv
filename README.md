@@ -4,7 +4,7 @@
 
 ## RECENTES ACTIVITES MARQUANTES
 
-![0](https://github.com/DvGt-dev/blob/main/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202%202022.png/Img%20C28_%2024-06-23_9%20-%20Photo.jpeg)
+![0](https://github.com/DvGt-dev/DV_Web_page/blob/main/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202%202022.png/Img%20C28_%2024-06-23_9%20-%20Photo.jpeg)
 ![1](https://github.com/DvGt-dev/DV_Web_page/blob/main/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202%202022.png/Affiche%20de%20chantier_www.beliris.be.jpeg)
 ![2](https://github.com/DvGt-dev/DV_Web_page/blob/main/hero-bg.jpg)
 
