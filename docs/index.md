@@ -4,9 +4,9 @@
 
 ## RECENTES ACTIVITES MARQUANTES
 
-![0](https://github.com/DvGt-dev/DV_Web_page/blob/main/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202%202022.png/Img%20C28_%2024-06-23_9%20-%20Photo.jpeg)
-![1](https://github.com/DvGt-dev/DV_Web_page/blob/main/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202%202022.png/Affiche%20de%20chantier_www.beliris.be.jpeg)
-![2](https://github.com/DvGt-dev/DV_Web_page/blob/main/hero-bg.jpg)
+![0](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/Img C28_ 24-06-23_9 - Photo.jpeg)
+![1](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/Affiche de chantier_www.beliris.be.jpeg)
+![2](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/hero-bg.jpg)
 
 - **Adresse :**1348, Louvain-la-Neuve
 - **Email :** dvrchipro@gmail.com
@@ -109,9 +109,23 @@
   - Lycée Classique de Bafoussam \ September 2013
 
 ### ---------------------------------------------------------------------------------------------
+### SOME IMAGE ACHIEVEMENTS
 
-### [SOME IMAGE ACHIEVEMENTS](https://github.com/DvGt-dev/DV_Web_page/tree/main#scientific-bacalaureate-series-c) 
-![2](https://github.com/DvGt-dev/DV_Web_page/blob/main/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202%202022.png/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202%202022-0002.png) 
-![3](https://github.com/DvGt-dev/DV_Web_page/blob/main/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202%202022.png/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202%202022-0003.png)
-![4](https://github.com/DvGt-dev/DV_Web_page/blob/main/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202%202022.png/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202%202022-0004.png)  
-![5](https://github.com/DvGt-dev/DV_Web_page/blob/main/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202%202022.png/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202%202022-0005.png)  |  ![6](https://github.com/DvGt-dev/DV_Web_page/blob/main/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202%202022.png/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202%202022-0006.png)  | ![7](https://github.com/DvGt-dev/DV_Web_page/blob/main/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202%202022.png/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202%202022-0007.png) |   ![8](https://github.com/DvGt-dev/DV_Web_page/blob/main/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202%202022.png/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202%202022-0008.png)  |  ![9](https://github.com/DvGt-dev/DV_Web_page/blob/main/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202%202022.png/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202%202022.png/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202%202022-0009.png) | ![10](https://github.com/DvGt-dev/DV_Web_page/blob/main/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202%202022.png/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202%202022-0010.png) |   ![11](https://github.com/DvGt-dev/DV_Web_page/blob/main/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202%202022.png/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202%202022-0011.png)  |  ![12](https://github.com/DvGt-dev/DV_Web_page/blob/main/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202%202022.png/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202%202022-0012.png) | ![13](https://github.com/DvGt-dev/DV_Web_page/blob/main/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202%202022.png/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202%202022-0013.png) |   ![14](https://github.com/DvGt-dev/DV_Web_page/blob/main/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202%202022.png/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202%202022-0014.png)  |  ![15](https://github.com/DvGt-dev/DV_Web_page/blob/main/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202%202022.png/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202%202022-0015.png) | ![16](https://github.com/DvGt-dev/DV_Web_page/blob/main/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202...
+![21](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/iadDJONTSO VICTORIEN - Portfolio 2 2022-0002.png)
+![22](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/iadDJONTSO VICTORIEN - Portfolio 2 2022-0003.png)
+![23](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/iadDJONTSO VICTORIEN - Portfolio 2 2022-0004.png)
+![24](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/iadDJONTSO VICTORIEN - Portfolio 2 2022-0005.png)
+![25](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/iadDJONTSO VICTORIEN - Portfolio 2 2022-0006.png)
+![12](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/iadDJONTSO VICTORIEN - Portfolio 2 2022-0007.png)
+![26](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/iadDJONTSO VICTORIEN - Portfolio 2 2022-0008.png)
+![13](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/iadDJONTSO VICTORIEN - Portfolio 2 2022-0009.png)
+![10](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/iadDJONTSO VICTORIEN - Portfolio 2 2022-0010.png)
+![11](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/iadDJONTSO VICTORIEN - Portfolio 2 2022-0011.png)
+![12](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/iadDJONTSO VICTORIEN - Portfolio 2 2022-0012.png)
+![13](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/iadDJONTSO VICTORIEN - Portfolio 2 2022-0013.png)
+![14](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/iadDJONTSO VICTORIEN - Portfolio 2 2022-0014.png)
+![15](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/iadDJONTSO VICTORIEN - Portfolio 2 2022-0015.png)
+![16](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/iadDJONTSO VICTORIEN - Portfolio 2 2022-0016.png)
+![17](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/iadDJONTSO VICTORIEN - Portfolio 2 2022-0017.png)
+![18](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/iadDJONTSO VICTORIEN - Portfolio 2 2022-0018.png)
+...
