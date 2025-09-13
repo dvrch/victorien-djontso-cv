@@ -1,0 +1,9 @@
+# Dependencies
+/node_modules
+/svelte-3d-viewer/node_modules
+
+# Build artifacts
+/svelte-3d-viewer/build
+
+# OS-specific
+.DS_Store

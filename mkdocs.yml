@@ -1,0 +1,51 @@
+site_name: Guide GitHub Actions & MkDocs
+site_url: https://dvrch.github.io/DV_Web_page/
+site_description: Un guide pratique sur le déploiement de documentation avec GitHub Actions et MkDocs.
+
+repo_url: https://github.com/dvrch/DV_Web_page
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: blue grey
+      accent: light blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+    - scheme: default
+      primary: blue grey
+      accent: light blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+  features:
+    - navigation.sections
+    - search.highlight
+    - content.tabs.link
+    - navigation.instant
+  icon:
+    logo: material/book-open-variant
+
+nav:
+  - Accueil: index.md
+  - Comprendre GitHub Actions: github_actions_basics.md
+  - 'MkDocs: Configuration de Base': mkdocs_setup.md
+  - Problèmes Courants et Solutions: common_issues_and_solutions.md
+  - Sujets Avancés: advanced_topics.md
+  - 'Intégration 3D Svelte': svelte_3d_integration.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed: {alternate_style: true}
+  - attr_list
+  - md_in_html
+  - pymdownx.magiclink
+
+plugins:
+  - search
+
+docs_dir: docs
+site_dir: site
