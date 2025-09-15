@@ -14,7 +14,7 @@ Ce dépôt contient un guide pratique détaillé, issu d'une conversation intera
 
 Le guide est déployé sur GitHub Pages et est accessible via le lien suivant :
 
-[Accéder au Guide](https://dvrch.github.io/GitHub_Actions_MkDocs_Guide/)
+[Accéder au Guide](https://dvrch.github.io/DV_Web_page/)
 
 ## Contribuer
 

@@ -1,8 +1,8 @@
 site_name: Guide GitHub Actions & MkDocs
-site_url: https://dvrch.github.io/GitHub_Actions_MkDocs_Guide/
+site_url: https://dvrch.github.io/DV_Web_page/
 site_description: Un guide pratique sur le déploiement de documentation avec GitHub Actions et MkDocs.
 
-repo_url: https://github.com/dvrch/GitHub_Actions_MkDocs_Guide
+repo_url: https://github.com/dvrch/DV_Web_page
 
 theme:
   name: material

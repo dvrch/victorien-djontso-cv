@@ -2,6 +2,6 @@
 
 Voici une démonstration de l'intégration d'une application Svelte avec un modèle 3D dans MkDocs.
 
-<iframe src="/GitHub_Actions_MkDocs_Guide/svelte-3d-viewer/" width="100%" height="500px" style="border:none;"></iframe>
+<iframe src="/DV_Web_page/svelte-3d-viewer/" width="100%" height="500px" style="border:none;"></iframe>
 
 
