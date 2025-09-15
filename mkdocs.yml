@@ -31,11 +31,12 @@ nav:
   - Accueil: index.md
   - English CV: cv_en.md
   - Réalisations: achievements.md
-  - Comprendre GitHub Actions: github_actions_basics.md
-  - 'MkDocs: Configuration de Base': mkdocs_setup.md
-  - Problèmes Courants et Solutions: common_issues_and_solutions.md
-  - Sujets Avancés: advanced_topics.md
-  - 'Intégration 3D Svelte': svelte_3d_integration.md
+  - CV Imprimable: "CV-imprimable- VICTORIEN DJONTSO.md"
+  # - Comprendre GitHub Actions: github_actions_basics.md
+  # - 'MkDocs: Configuration de Base': mkdocs_setup.md
+  # - Problèmes Courants et Solutions: common_issues_and_solutions.md
+  # - Sujets Avancés: advanced_topics.md
+  # - 'Intégration 3D Svelte': svelte_3d_integration.md
 
 markdown_extensions:
   - admonition
