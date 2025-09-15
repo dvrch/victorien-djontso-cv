@@ -2,15 +2,16 @@
 
 # **Architecte & Urbanisme / Développeur / BIM & 3D-artiste / digital art **
 
+
+- **Adresse :**1348, Louvain-la-Neuve
+- **Email :** dvrchipro@gmail.com
+- **[Site Web](https://dvgt-dev.github.io/DV_Web_page/) | [Github](https://github.com/DvGt-dev/DV_Web_page/tree/main) | [LinkedIn](https://www.linkedin.com/in/djontso-victorien) | [YouTube](https://www.youtube.com/channel/UCdjontso-victorien2171)**
+
 ## RECENTES ACTIVITES MARQUANTES
 
 ![0](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/Img C28_ 24-06-23_9 - Photo.jpeg)
 ![1](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/Affiche de chantier_www.beliris.be.jpeg)
 ![2](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/hero-bg.jpg)
-
-- **Adresse :**1348, Louvain-la-Neuve
-- **Email :** dvrchipro@gmail.com
-- **[Site Web](https://dvgt-dev.github.io/DV_Web_page/) | [Github](https://github.com/DvGt-dev/DV_Web_page/tree/main) | [LinkedIn](https://www.linkedin.com/in/djontso-victorien) | [YouTube](https://www.youtube.com/channel/UCdjontso-victorien2171)**
 
 ## PROFESSIONAL REFERENCES
 
@@ -107,24 +108,3 @@
 
 - **Mathematics and sciences physiques**
   - Lycée Classique de Bafoussam \ September 2013
-
-### ---------------------------------------------------------------------------------------------
-### SOME IMAGE ACHIEVEMENTS
-
-![21](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/iadDJONTSO VICTORIEN - Portfolio 2 2022-0002.png)
-![22](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/iadDJONTSO VICTORIEN - Portfolio 2 2022-0003.png)
-![23](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/iadDJONTSO VICTORIEN - Portfolio 2 2022-0004.png)
-![24](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/iadDJONTSO VICTORIEN - Portfolio 2 2022-0005.png)
-![25](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/iadDJONTSO VICTORIEN - Portfolio 2 2022-0006.png)
-![12](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/iadDJONTSO VICTORIEN - Portfolio 2 2022-0007.png)
-![26](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/iadDJONTSO VICTORIEN - Portfolio 2 2022-0008.png)
-![13](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/iadDJONTSO VICTORIEN - Portfolio 2 2022-0009.png)
-![10](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/iadDJONTSO VICTORIEN - Portfolio 2 2022-0010.png)
-![11](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/iadDJONTSO VICTORIEN - Portfolio 2 2022-0011.png)
-![12](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/iadDJONTSO VICTORIEN - Portfolio 2 2022-0012.png)
-![13](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/iadDJONTSO VICTORIEN - Portfolio 2 2022-0013.png)
-![14](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/iadDJONTSO VICTORIEN - Portfolio 2 2022-0014.png)
-![15](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/iadDJONTSO VICTORIEN - Portfolio 2 2022-0015.png)
-![16](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/iadDJONTSO VICTORIEN - Portfolio 2 2022-0016.png)
-![17](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/iadDJONTSO VICTORIEN - Portfolio 2 2022-0017.png)
-![18](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/iadDJONTSO VICTORIEN - Portfolio 2 2022-0018.png)

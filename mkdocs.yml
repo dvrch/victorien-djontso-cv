@@ -29,6 +29,7 @@ theme:
 
 nav:
   - Accueil: index.md
+  - Réalisations: achievements.md
   - Comprendre GitHub Actions: github_actions_basics.md
   - 'MkDocs: Configuration de Base': mkdocs_setup.md
   - Problèmes Courants et Solutions: common_issues_and_solutions.md
