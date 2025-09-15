@@ -1,6 +1,6 @@
-site_name: Guide GitHub Actions & MkDocs
+site_name: Victorien Djontso - CV
 site_url: https://dvrch.github.io/DV_Web_page/
-site_description: Un guide pratique sur le déploiement de documentation avec GitHub Actions et MkDocs.
+site_description: CV de Victorien Djontso
 
 repo_url: https://github.com/dvrch/DV_Web_page
 
@@ -32,11 +32,6 @@ nav:
   - English CV: cv_en.md
   - Réalisations: achievements.md
   - CV Imprimable: "CV-imprimable- VICTORIEN DJONTSO.md"
-  # - Comprendre GitHub Actions: github_actions_basics.md
-  # - 'MkDocs: Configuration de Base': mkdocs_setup.md
-  # - Problèmes Courants et Solutions: common_issues_and_solutions.md
-  # - Sujets Avancés: advanced_topics.md
-  # - 'Intégration 3D Svelte': svelte_3d_integration.md
 
 markdown_extensions:
   - admonition
