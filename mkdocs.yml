@@ -29,6 +29,7 @@ theme:
 
 nav:
   - Accueil: index.md
+  - English CV: cv_en.md
   - Réalisations: achievements.md
   - Comprendre GitHub Actions: github_actions_basics.md
   - 'MkDocs: Configuration de Base': mkdocs_setup.md
