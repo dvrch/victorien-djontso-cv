@@ -1,110 +1,113 @@
 # VICTORIEN DJONTSO
 
-# **Architecte & Urbanisme / Développeur / BIM & 3D-artiste / digital art **
+# **Architecte & Urbanisme / Développeur / BIM & 3D-artiste / art numérique**
 
-
-- **Adresse :**1348, Louvain-la-Neuve
+- **Adresse :** 1348, Louvain-la-Neuve
 - **Email :** dvrchipro@gmail.com
 - **[Site Web](https://dvgt-dev.github.io/DV_Web_page/) | [Github](https://github.com/DvGt-dev/DV_Web_page/tree/main) | [LinkedIn](https://www.linkedin.com/in/djontso-victorien) | [YouTube](https://www.youtube.com/channel/UCdjontso-victorien2171)**
 
-## RECENTES ACTIVITES MARQUANTES
+## PROFIL
+
+Architecte et développeur innovant avec une double expertise en urbanisme et technologies 3D. Passionné par l'application des compétences en BIM et en programmation pour contribuer à des projets d'envergure. À la recherche active d'opportunités pour mettre en œuvre mes compétences dans un environnement stimulant.
+
+## ACTIVITÉS RÉCENTES MARQUANTES
 
 ![0](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/Img C28_ 24-06-23_9 - Photo.jpeg)
 ![1](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/Affiche de chantier_www.beliris.be.jpeg)
 ![2](iadDJONTSO VICTORIEN - Portfolio 2 2022.png/hero-bg.jpg)
 
-## PROFESSIONAL REFERENCES
+## RÉFÉRENCES PROFESSIONNELLES
 
-- **NOCA N°414** (National Order of Architects of Cameroon)
+- **NOCA N°414** (Ordre National des Architectes du Cameroun)
 
-## SKILLS
+## COMPÉTENCES
 
-- Versatility \ Rigor and precision \ Critical thinking \ Team spirit
-- Ability to solve complex problems \ Perseverance in projects \ Intellectual curiosity \ Autonomy in learning
-- Artistic Sensibility \ Graphic Design \ Creativity and innovation
-- Proficiency in Excel \ Python Programming \ Visual Programming (Grasshopper-Houdini) \ Office Pack
+- Polyvalence, Rigueur et précision, Esprit critique, Esprit d'équipe
+- Résolution de problèmes complexes, Persévérance dans les projets, Curiosité intellectuelle, Apprentissage autonome
+- Sensibilité artistique, Conception graphique, Créativité et innovation
+- Maîtrise d'Excel, Programmation Python, Programmation Visuelle (Grasshopper-Houdini), Pack Office
 
-## CERTIFICATES, TRAINING
+## CERTIFICATS & FORMATIONS
 
 - **MOOC Bâtiment durable** (ADEME-France, 2018)
-  - [Construire en zone tropical humide](https://www.mooc-batiment-durable.fr/fr/formations/lumiere-thermique-et-acoustique-bien-construire-en-zone-tropical/)
-- **MOOC BIM: MOOC Bâtiment durable** (ADEME-France, 2018)
-  - [Devenez acteur de la transition numérique (But without evaluation)](https://www.mooc-batiment-durable.fr/fr/formations/moocbim-devenez-acteur-de-la-transition-numerique/)
+  - [Construire en zone tropicale humide](https://www.mooc-batiment-durable.fr/fr/formations/lumiere-thermique-et-acoustique-bien-construire-en-zone-tropical/)
+- **MOOC BIM: Bâtiment durable** (ADEME-France, 2018)
+  - [Devenez acteur de la transition numérique (Mais sans évaluation)](https://www.mooc-batiment-durable.fr/fr/formations/moocbim-devenez-acteur-de-la-transition-numerique/)
 
-## LANGUAGES
+## LANGUES
 
-- **French :** Mother tongue
-- **English :** Notions
+- **Français :** Langue maternelle
+- **Anglais :** Notions
 
-## PROJECTS
+## PROJETS
 
-- Monument of the Fiftieth Anniversary of the National Unity of Cameroon
-- Resort with pool in Kribi
+- Monument du Cinquantenaire de l'Unité Nationale du Cameroun
+- Complexe hôtelier avec piscine à Kribi
 
-## AREAS OF INTEREST
+## CENTRES D'INTÉRÊT
 
-- Digital/IT Solution in Architecture and Graphic Art
-- Creative 3D Art
-- Data management in simulation, visualization and Implementation/Construction.
+- Solutions numériques/informatiques en architecture et art graphique
+- Art créatif 3D
+- Gestion des données dans la simulation, la visualisation et la mise en œuvre/construction.
 
-## PROFESSIONAL PROFILE
+## PROFIL PROFESSIONNEL
 
-- Designing Architectural Plans on **Autocad**, 2D and 3D Plans \ **BIM Models Implementation**
-- Automatic Publication of Plans \ Enhancement of **BIM** information from the model via external sources (Excel, Python, Grasshopper)
-- **Autocad** high-fidelity exchange configuration with **Autodesk** (layers, colors, layer filters, layout templates), Revit (BIM model, BIM to be improved)
-- Knowledge of the legal basis (Belgian law, BIM and Subuilt Space and then on the Environment); cartographic software, techniques and resources useful to the urban planner (following the current specialization in urban planning).
-- Sufficient basis for the use of programming and AI in my work environment and my applications (member of the **GitHub** developer community); use of AI facilitators (**GitHub**-copilot for code, stable diffusion images); Implementation of local text generation for data management and analysis.
-- Ambitions: interactive presentations (virtual and augmented reality), real-time simulation, animations (recent experimentation with Unreal Engine and Houdini)
+- Conception de plans d'architecture sur **Autocad**, plans 2D et 3D, **Mise en œuvre de modèles BIM**
+- Publication automatique de plans, enrichissement des informations **BIM** du modèle via des sources externes (Excel, Python, Grasshopper)
+- Configuration d'échange haute-fidélité **Autocad** avec **Autodesk** (calques, couleurs, filtres de calques, modèles de présentation), Revit (modèle BIM, BIM à améliorer)
+- Connaissance du cadre juridique (droit belge, BIM et Espace sous-construit puis sur l'Environnement) ; logiciels de cartographie, techniques et ressources utiles à l'urbaniste (suite à la spécialisation en cours en urbanisme).
+- Base suffisante pour l'utilisation de la programmation et de l'IA dans mon environnement de travail et mes applications (membre de la communauté des développeurs **GitHub**) ; utilisation de facilitateurs IA (**GitHub**-copilot pour le code, images de diffusion stable) ; Mise en œuvre de la génération de texte locale pour la gestion et l'analyse des données.
+- Ambitions : présentations interactives (réalité virtuelle et augmentée), simulation en temps réel, animations (expérimentation récente avec Unreal Engine et Houdini)
 
-## CAREER
+## EXPÉRIENCE PROFESSIONNELLE
 
-### ACADEMIC INTERN
+### STAGIAIRE ACADÉMIQUE
 
-- **Desisn Construction \ Charleroi \ Apprentissage contract \ June 2023 - August 2023**
-  - 3D models + presentation images, official meetings (Commune, BELRIS, COACTM), presentation documents, field visit / construction site.
+- **Desisn Construction, Charleroi - Contrat d'apprentissage (Juin 2023 - Août 2023)**
+  - Création de modèles 3D et d'images de présentation pour les réunions officielles avec les parties prenantes (Commune, BELRIS, COACTM).
+  - Préparation de documents de présentation et réalisation de visites de terrain sur les chantiers.
 
 ### CONSULTANT
 
-- **[ZF Architects](https://www.zf-architects.com/) \ Yaoundé \ Independent \ Mar. 2021 - Sept. 2022**
-  - Designer, Architect of Follow-up/Surveys, Presentation etc.
+- **[ZF Architects](https://www.zf-architects.com/), Yaoundé - Indépendant (Mar. 2021 - Sept. 2022)**
+  - Direction de la conception et du suivi architectural pour divers projets.
+  - Réalisation de présentations de projets aux clients et aux parties prenantes.
 
-### PROFESSIONAL INTERNSHIP
+### STAGE PROFESSIONNEL
 
-- **Cabinet Serge Eloundou - SETREC AUI Sarl \ Yaoundé \ Professionnalization contract \ March 2019 - March 2021**
-  - Programmer, designer, follow-up architect, presentations etc.
-  - Various projects; Large-scale buildings (office building (Ministry), large and complex projects)
+- **Cabinet Serge Eloundou - SETREC AUI Sarl, Yaoundé - Contrat de professionnalisation (Mars 2019 - Mars 2021)**
+  - Contribution à des projets de grande envergure, y compris un immeuble ministériel, en tant que programmeur, concepteur et architecte de suivi.
 
-### STAGE STAFF
+### PERSONNEL DE STAGE
 
-- **Cabinet Bureau d'Etudes Architectes (BEA) \ Bafoussam \ Professionnalization contract \ Aug. 2019 - Dec. 2019**
-  - Assistant follow-up Architect, Designer
-  - Construction of the cathedral in Bafoussam
+- **Cabinet Bureau d'Etudes Architectes (BEA), Bafoussam - Contrat de professionnalisation (Août 2019 - Déc. 2019)**
+  - Assistance à l'architecte de suivi et au concepteur pour la construction de la cathédrale de Bafoussam.
 
-### ACADEMIC INTERN
+### STAGIAIRE ACADÉMIQUE
 
-- **URBATHEC Conseil \ Yaoundé \ Apprentissage contract \ July 2016 - Sept. 2016**
-  - Architectural design, project on ArchiCAD, 2D and 3D plans.
-  - Architect's reference: the magnificent building of the ![DGI](https://urbatechconseils.com/2015/08/02/construction-was-awarded-with-the-best-construction-company-prize/) (Direction Générale des Impôtss) in Yaoundé
-  - Supervised by his intern Herman Kante, now an international reference (published in [forbes](https://forbesafrique.com/hermann-kamte-modele-dune-nouvelle-generation-darchitectes/))
+- **URBATHEC Conseil, Yaoundé - Contrat d'apprentissage (Juillet 2016 - Sept. 2016)**
+  - Développement de conceptions architecturales et création de plans 2D et 3D avec ArchiCAD.
+  - Contribution au projet emblématique de l'immeuble de la DGI (Direction Générale des Impôts) à Yaoundé.
+  - Mentoré par Herman Kante, un architecte de renommée internationale publié dans Forbes.
 
 ## FORMATION
 
-### SPECIALIZED MASTER'S DEGREE
+### MASTER SPÉCIALISÉ
 
 - **Urbanisme et Aménagement du Territoire (URBA2MC)**
-  - Université catholique de Louvain (Louvain-la-Neuve) \ September 2022 - Ongoing
+  - Université catholique de Louvain (Louvain-la-Neuve) - Septembre 2022 - En cours
 
-### ARCHITECT
-
-- **Architecture et Art de l'Ingénieur (AAI)**
-  - Institut des Beaux-arts de Foumban (IBAF) - (UDs) Foumban-Cameroon \ July 2018 \ B+ / Fairy good
-
-### BACHELOR'S DEGREE IN ARCHITECTURE
+### ARCHITECTE
 
 - **Architecture et Art de l'Ingénieur (AAI)**
-  - Institut des Beaux-arts de Foumban (IBAF) - (UDs) Foumban-Cameroon \ September 2016 \ B- / Fairy well
+  - Institut des Beaux-arts de Foumban (IBAF) - (UDs) Foumban-Cameroun - Juillet 2018 - B+ / Assez bien
 
-### SCIENTIFIC BACALAUREATE SERIES "C"
+### LICENCE EN ARCHITECTURE
 
-- **Mathematics and sciences physiques**
-  - Lycée Classique de Bafoussam \ September 2013
+- **Architecture et Art de l'Ingénieur (AAI)**
+  - Institut des Beaux-arts de Foumban (IBAF) - (UDs) Foumban-Cameroun - Septembre 2016 - B- / Bien
+
+### BACCALAURÉAT SCIENTIFIQUE SÉRIE "C"
+
+- **Mathématiques et Sciences Physiques**
+  - Lycée Classique de Bafoussam - Septembre 2013
