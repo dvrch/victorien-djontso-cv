@@ -1,0 +1,49 @@
+name: Deploy Docs
+
+on:
+  push:
+    branches:
+      - dv-cv-mkdocx
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install Svelte dependencies
+        run: npm install
+        working-directory: ./svelte-3d-viewer
+      - name: Build Svelte project
+        run: npm run build
+        working-directory: ./svelte-3d-viewer
+      - name: List Svelte build directory
+        run: ls -F svelte-3d-viewer/build
+      - name: Create docs/svelte-3d-viewer directory
+        run: mkdir -p ./docs/svelte-3d-viewer
+      - name: Copy Svelte build to docs
+        run: cp -r ./svelte-3d-viewer/build/* ./docs/svelte-3d-viewer/
+      - name: List docs/svelte-3d-viewer directory
+        run: ls -F docs/svelte-3d-viewer/
+      
+      - name: Build MkDocs site
+        run: mkdocs build
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: site  # Publie le contenu du répertoire 'site'
+          force_orphan: true # Crée une branche gh-pages propre à chaque déploiement
