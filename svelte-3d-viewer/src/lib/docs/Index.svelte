@@ -1,4 +1,8 @@
-# VICTORIEN DJONTSO
+<script>
+  import { onMount } from 'svelte';
+  import { marked } from 'marked';
+  let html = '';
+  const markdown = `# VICTORIEN DJONTSO
 
 # **Architecte & Urbanisme / Développeur / BIM & 3D-artiste / art numérique**
 
@@ -110,4 +114,12 @@ Architecte et développeur innovant avec une double expertise en urbanisme et te
 ### BACCALAURÉAT SCIENTIFIQUE SÉRIE "C"
 
 - **Mathématiques et Sciences Physiques**
-  - Lycée Classique de Bafoussam - Septembre 2013
+  - Lycée Classique de Bafoussam - Septembre 2013`;
+  onMount(() => {
+    html = marked.parse(markdown);
+  });
+</script>
+
+<div class="markdown-body" bind:this={container}>
+  {@html html}
+</div>
