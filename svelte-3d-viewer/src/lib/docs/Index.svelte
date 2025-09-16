@@ -2,6 +2,7 @@
   import { onMount } from 'svelte';
   import { marked } from 'marked';
   let html = '';
+  let container;
   const markdown = `# VICTORIEN DJONTSO
 
 # **Architecte & Urbanisme / Développeur / BIM & 3D-artiste / art numérique**

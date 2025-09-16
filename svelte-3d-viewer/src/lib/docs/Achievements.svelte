@@ -2,6 +2,7 @@
   import { onMount } from 'svelte';
   import { marked } from 'marked';
   let html = '';
+  let container;
   const markdown = `### SOME IMAGE ACHIEVEMENTS
 
 ![21](../../docs/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202%202022.png/iadDJONTSO%20VICTORIEN%20-%20Portfolio%202%202022-0002.png)

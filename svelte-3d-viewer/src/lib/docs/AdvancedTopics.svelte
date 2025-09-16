@@ -2,6 +2,7 @@
   import { onMount } from 'svelte';
   import { marked } from 'marked';
   let html = '';
+  let container;
   const markdown = `# Sujets Avancés (new)
 
 Maintenant que les bases sont couvertes, explorons quelques sujets avancés qui peuvent enrichir votre documentation et votre workflow.
@@ -12,9 +13,9 @@ Si vous choisissez de ne pas utiliser un générateur de site statique comme MkD
 
 ### Principe :
 
-Un script (souvent en Python) s'exécute au moment du déploiement pour parcourir votre répertoire de documentation, identifier tous les fichiers Markdown, extraire leurs titres (par exemple, le premier titre H1), et générer un fichier JSON (`content_map.json`). Ce fichier JSON contient la liste des chemins de fichiers et de leurs titres.
+Un script (souvent en Python) s'exécute au moment du déploiement pour parcourir votre répertoire de documentation, identifier tous les fichiers Markdown, extraire leurs titres (par exemple, le premier titre H1), et générer un fichier JSON ("content_map.json"). Ce fichier JSON contient la liste des chemins de fichiers et de leurs titres.
 
-Votre JavaScript côté client peut ensuite lire ce `content_map.json` pour construire dynamiquement la barre de navigation et charger le contenu des fichiers Markdown à la demande.
+Votre JavaScript côté client peut ensuite lire ce "content_map.json" pour construire dynamiquement la barre de navigation et charger le contenu des fichiers Markdown à la demande.
 
 ### Avantages :
 
@@ -81,6 +82,6 @@ Si vous utilisez HTML/JS pur, vous avez un contrôle total sur le CSS et le Java
   });
 </script>
 
-<div class="markdown-body">
+<div class="markdown-body" bind:this={container}>
   {@html html}
 </div>
