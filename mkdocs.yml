@@ -1,8 +1,8 @@
 site_name: Victorien Djontso - CV
-site_url: https://dvrch.github.io/DV_Web_page/
+site_url: https://dvrch.github.io/victorien-djontso-cv/
 site_description: CV de Victorien Djontso
 
-repo_url: https://github.com/dvrch/DV_Web_page
+repo_url: https://github.com/dvrch/victorien-djontso-cv
 
 theme:
   name: material

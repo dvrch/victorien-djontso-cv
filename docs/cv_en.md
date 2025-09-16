@@ -4,7 +4,7 @@
 
 - **Address:** 1348, Louvain-la-Neuve
 - **Email:** dvrchipro@gmail.com
-- **[Website](https://dvgt-dev.github.io/DV_Web_page/) | [Github](https://github.com/DvGt-dev/DV_Web_page/tree/main) | [LinkedIn](https://www.linkedin.com/in/djontso-victorien) | [YouTube](https://www.youtube.com/channel/UCdjontso-victorien2171)**
+- **[Website](https://dvgt-dev.github.io/victorien-djontso-cv/) | [Github](https://github.com/DvGt-dev/victorien-djontso-cv/tree/main) | [LinkedIn](https://www.linkedin.com/in/djontso-victorien) | [YouTube](https://www.youtube.com/channel/UCdjontso-victorien2171)**
 
 ## PROFILE
 
@@ -64,7 +64,7 @@ Innovative Architect and Developer with a dual expertise in urban planning and 3
 ### ACADEMIC INTERN
 
 - **Desisn Construction, Charleroi - Apprenticeship Contract (June 2023 - August 2023)**
-  - Created 3D models and presentation images for official meetings with stakeholders (Commune, BELRIS, COACTM).
+  - Created 3D models and presentation images for official meetings with stakeholders (Commune, BELRIS, CCATM).
   - Prepared presentation documents and conducted field visits on construction sites.
 
 ### CONSULTANT

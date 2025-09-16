@@ -4,7 +4,7 @@
 
 - **Adresse :** 1348, Louvain-la-Neuve
 - **Email :** dvrchipro@gmail.com
-- **[Site Web](https://dvgt-dev.github.io/DV_Web_page/) | [Github](https://github.com/DvGt-dev/DV_Web_page/tree/main) | [LinkedIn](https://www.linkedin.com/in/djontso-victorien) | [YouTube](https://www.youtube.com/channel/UCdjontso-victorien2171)**
+- **[Site Web](https://dvgt-dev.github.io/victorien-djontso-cv/) | [Github](https://github.com/DvGt-dev/victorien-djontso-cv/tree/main) | [LinkedIn](https://www.linkedin.com/in/djontso-victorien) | [YouTube](https://www.youtube.com/channel/UCdjontso-victorien2171)**
 
 ## PROFIL
 
