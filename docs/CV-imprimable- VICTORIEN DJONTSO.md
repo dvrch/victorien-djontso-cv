@@ -4,7 +4,7 @@
 
 - **Adresse :** 1348, Louvain-la-Neuve
 - **Email :** dvrchipro@gmail.com
-- **[Site Web](https://dvgt-dev.github.io/victorien-djontso-cv/) | [Github](https://github.com/DvGt-dev/victorien-djontso-cv/tree/main) | [LinkedIn](https://www.linkedin.com/in/djontso-victorien) | [YouTube](https://www.youtube.com/channel/UCdjontso-victorien2171)**
+- **[Site Web](https://dvrch.github.io/victorien-djontso-cv/) | [Github](https://github.com/dvrch/victorien-djontso-cv/tree/main) | [LinkedIn](https://www.linkedin.com/in/djontso-victorien) | [YouTube](https://www.youtube.com/channel/UCdjontso-victorien2171)**
 
 ## PROFIL
 Architecte et développeur innovant avec une double expertise en urbanisme et technologies 3D. Passionné par l'application des compétences en BIM et en programmation pour contribuer à des projets d'envergure. À la recherche active d'opportunités pour mettre en œuvre mes compétences dans un environnement stimulant.
