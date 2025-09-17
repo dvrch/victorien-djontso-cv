@@ -32,6 +32,7 @@ nav:
   - English CV: cv_en.md
   - Réalisations: achievements.md
   - CV Imprimable: cv_imprimable.md
+  - Inegration 3D svelte : integration_3d_svelte.md
 
 markdown_extensions:
   - admonition
