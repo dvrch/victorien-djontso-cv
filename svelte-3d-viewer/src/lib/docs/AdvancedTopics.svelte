@@ -25,6 +25,7 @@ Votre JavaScript côté client peut ensuite lire ce &#96;content_map.json&#96; p
 ### Inconvénients :
 
 *   **Complexité accrue :** Vous devez gérer vous-même la conversion Markdown-HTML, la recherche, la table des matières, etc., qui sont des fonctionnalités intégrées dans MkDocs.
+
 *   **Dépendance au script :** Le script Python doit être exécuté à chaque déploiement.
 
 ## Intégration de Données Dynamiques (CSV/YAML)
@@ -75,7 +76,7 @@ Utilisez une bibliothèque JavaScript comme &#96;highlight.js&#96; ou &#96;Prism
 
 Material for MkDocs offre de nombreuses options de personnalisation via &#96;mkdocs.yml&#96; et la possibilité de surcharger des blocs de template Jinja2 pour des modifications plus profondes.
 
-Si vous utilisez HTML/JS pur, vous avez un contrôle total sur le CSS et le JavaScript, mais vous devez tout construire à partir de zéro.`;
+Si vous utilisez HTML/JS pur, vous avez un contrôle total sur le CSS et le JavaScript, but you have to build everything from scratch.`;
   onMount(() => {
     html = marked.parse(markdown);
   });
