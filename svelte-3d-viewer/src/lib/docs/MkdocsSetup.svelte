@@ -1,1 +1,114 @@
-<script>\n  import { onMount } from \'svelte\';\n  import { marked } from \'marked\';\n  let html = \'\';\n  let container;\n  const markdown = `# MkDocs : Configuration de Base et Personnalisation\\n\\nMkDocs est un g\\u00e9n\\u00e9rateur de site statique rapide, simple et absolument g\\u00e9nial, con\\u00e7u pour construire des sites de documentation de projet. Il prend vos fichiers Markdown et les transforme en un site web enti\\u00e8rement navigable.\\n\\n## Fichier de Configuration (\`mkdocs.yml\`)\\n\\nLe c\\u0153ur de votre site MkDocs est le fichier \\`mkdocs.yml\\`. C\'est l\\u00e0 que vous d\\u00e9finissez le nom de votre site, sa navigation, le th\\u00e8me, et d\'autres param\\u00e8tres.\\n\\n\`\`\`yaml\\nsite_name: Mon Super Guide\\nsite_url: https://utilisateur.github.io/mon-super-guide/\\nsite_description: Un guide pour apprendre MkDocs et GitHub Actions.\\n\\n# Th\\u00e8me Material for MkDocs\\ntheme:\\n  name: material\\n  palette:\\n    - scheme: slate # Th\\u00e8me sombre par d\\u00e9faut\\n      primary: blue grey\\n      accent: light blue\\n      toggle:\\n        icon: material/brightness-7\\n        name: Passer au mode clair\\n    - scheme: default # Th\\u00e8me clair\\n      primary: blue grey\\n      accent: light blue\\n      toggle:\\n        icon: material/brightness-4\\n        name: Passer au mode sombre\\n  features:\\n    - navigation.sections # Navigation verticale avec sections repliables\\n    # - navigation.tabs # Pour une navigation horizontale en haut (d\\u00e9sactiv\\u00e9 pour ce guide)\\n    # - toc.integrate # Pour int\\u00e9grer la table des mati\\u00e8res dans la barre lat\\u00e9rale (d\\u00e9sactiv\\u00e9 pour ce guide)\\n    - search.highlight\\n    - content.tabs.link\\n  icon:\\n    logo: material/book-open-variant\\n\\n# R\\u00e9pertoire contenant vos fichiers Markdown\\ndocs_dir: docs\\n\\n# R\\u00e9pertoire de sortie pour le site g\\u00e9n\\u00e9r\\u00e9 (par d\\u00e9faut: site)\\nsite_dir: site\\n\\n# URL du d\\u00e9p\\u00f4t GitHub (important pour GitHub Pages)\\nrepo_url: https://github.com/utilisateur/mon-super-guide\\n\\n# Utiliser des URLs de r\\u00e9pertoire (ex: /section/ au lieu de /section.html)\\nuse_directory_urls: true\\n\\n# D\\u00e9finition de la structure de navigation\\nnav:\\n  - Accueil: index.md\\n  - Introduction aux Actions GitHub: github_actions_basics.md\\n  - Configuration de MkDocs: mkdocs_setup.md\\n  - Probl\\u00e8mes Courants et Solutions:\\n    - Erreurs 404: common_issues_and_solutions.md#erreurs-404\\n    - Probl\\u00e8mes de Navigation: common_issues_and_solutions.md#problemes-de-navigation\\n  - Sujets Avanc\\u00e9s: advanced_topics.md\\n\\n# Extensions Markdown (pour des fonctionnalit\\u00e9s suppl\\u00e9mentaires)\\nmarkdown_extensions:\\n  - admonition\\n  - pymdownx.details\\n  - pymdownx.superfences\\n  - pymdownx.tabbed: {alternate_style: true}\\n  - attr_list\\n  - md_in_html\\n  - pymdownx.wikilinks # Pour les liens de type [[wikilink]]\\n\\n# Plugins MkDocs (pour des fonctionnalit\\u00e9s plus complexes)\\nplugins:\\n  - search\\n\`\`\`\\n\\n## Structure des Fichiers\\n\\nVotre documentation Markdown doit \\u00eatre plac\\u00e9e dans le r\\u00e9pertoire sp\\u00e9cifi\\u00e9 par \\`docs_dir\\` (g\\u00e9n\\u00e9ralement \\`docs/\\`).\\n\\n\`\`\`\\nmon-super-guide/\\n\\u251c\\u2500\\u2500 mkdocs.yml\\n\\u251c\\u2500\\u2500 .github/\\n\\u2502   \\u2514\\u2500\\u2500 workflows/\\n\\u2502       \\u2514\\u2500\\u2500 deploy-docs.yml\\n\\u2514\\u2500\\u2500 docs/\\n    \\u251c\\u2500\\u2500 index.md\\n    \\u251c\\u2500\\u2500 github_actions_basics.md\\n    \\u251c\\u2500\\u2500 mkdocs_setup.md\\n    \\u2514\\u2500 ... (vos autres fichiers Markdown)\\n\`\`\`\\n\\n## Pr\\u00e9visualisation Locale\\n\\nAvant de d\\u00e9ployer, vous pouvez pr\\u00e9visualiser votre site localement. Assurez-vous d\'avoir MkDocs et le th\\u00e8me Material install\\u00e9s (\\`pip install mkdocs mkdocs-material\\`).\\n\\n\`\`\`bash\\nmkdocs serve\\n\`\`\`\\n\\nOuvrez votre navigateur \\u00e0 \\`http://127.0.0.1:8000\\` pour voir votre site.`;\n  onMount(() => {\n    html = marked.parse(markdown);\n  });\n</script>\n\n<div class=\"markdown-body\" bind:this={container}>\n  {@html html}\n</div>\n
+<script>
+  import { onMount } from 'svelte';
+  import { marked } from 'marked';
+  let html = '';
+  let container;
+  const markdown = `# MkDocs : Configuration de Base et Personnalisation
+
+MkDocs est un générateur de site statique rapide, simple et absolument génial, conçu pour construire des sites de documentation de projet. Il prend vos fichiers Markdown et les transforme en un site web entièrement navigable.
+
+## Fichier de Configuration (\`mkdocs.yml`)
+
+Le cœur de votre site MkDocs est le fichier `mkdocs.yml`. C'est là que vous définissez le nom de votre site, sa navigation, le thème, et d'autres paramètres.
+
+```yaml
+site_name: Mon Super Guide
+site_url: https://utilisateur.github.io/mon-super-guide/
+site_description: Un guide pour apprendre MkDocs et GitHub Actions.
+
+# Thème Material for MkDocs
+theme:
+  name: material
+  palette:
+    - scheme: slate # Thème sombre par défaut
+      primary: blue grey
+      accent: light blue
+      toggle:
+        icon: material/brightness-7
+        name: Passer au mode clair
+    - scheme: default # Thème clair
+      primary: blue grey
+      accent: light blue
+      toggle:
+        icon: material/brightness-4
+        name: Passer au mode sombre
+  features:
+    - navigation.sections # Navigation verticale avec sections repliables
+    # - navigation.tabs # Pour une navigation horizontale en haut (désactivé pour ce guide)
+    # - toc.integrate # Pour intégrer la table des matières dans la barre latérale (désactivé pour ce guide)
+    - search.highlight
+    - content.tabs.link
+  icon:
+    logo: material/book-open-variant
+
+# Répertoire contenant vos fichiers Markdown
+docs_dir: docs
+
+# Répertoire de sortie pour le site généré (par défaut: site)
+site_dir: site
+
+# URL du dépôt GitHub (important pour GitHub Pages)
+repo_url: https://github.com/utilisateur/mon-super-guide
+
+# Utiliser des URLs de répertoire (ex: /section/ au lieu de /section.html)
+use_directory_urls: true
+
+# Définition de la structure de navigation
+nav:
+  - Accueil: index.md
+  - Introduction aux Actions GitHub: github_actions_basics.md
+  - Configuration de MkDocs: mkdocs_setup.md
+  - Problèmes Courants et Solutions:
+    - Erreurs 404: common_issues_and_solutions.md#erreurs-404
+    - Problèmes de Navigation: common_issues_and_solutions.md#problemes-de-navigation
+  - Sujets Avancés: advanced_topics.md
+
+# Extensions Markdown (pour des fonctionnalités supplémentaires)
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed: {alternate_style: true}
+  - attr_list
+  - md_in_html
+  - pymdownx.wikilinks # Pour les liens de type [[wikilink]]
+
+# Plugins MkDocs (pour des fonctionnalités plus complexes)
+plugins:
+  - search
+```
+
+## Structure des Fichiers
+
+Votre documentation Markdown doit être placée dans le répertoire spécifié par `docs_dir` (généralement `docs/`).
+
+```
+mon-super-guide/
+├── mkdocs.yml
+├── .github/
+│   └── workflows/
+│       └── deploy-docs.yml
+└── docs/
+    ├── index.md
+    ├── github_actions_basics.md
+    ├── mkdocs_setup.md
+    └── ... (vos autres fichiers Markdown)
+```
+
+## Prévisualisation Locale
+
+Avant de déployer, vous pouvez prévisualiser votre site localement. Assurez-vous d'avoir MkDocs et le thème Material installés (`pip install mkdocs mkdocs-material`).
+
+```bash
+mkdocs serve
+```
+
+Ouvrez votre navigateur à `http://127.0.0.1:8000` pour voir votre site.`;
+  onMount(() => {
+    html = marked.parse(markdown);
+  });
+</script>
+
+<div class="markdown-body" bind:this={container}>
+  {@html html}
+</div>
