@@ -28,10 +28,10 @@ theme:
     logo: material/book-open-variant
 
 nav:
-  - Accueil: index.md
-  - English CV: cv_en.md
-  - Réalisations: achievements.md
-  - CV Imprimable: "CV-imprimable- VICTORIEN DJONTSO.md"
+  - Accueil: index.html
+  - English CV: cv_en.html
+  - Réalisations: achievements.html
+  - CV Imprimable: cv_imprimable.html
 
 markdown_extensions:
   - admonition

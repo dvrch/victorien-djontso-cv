@@ -13,9 +13,9 @@ Si vous choisissez de ne pas utiliser un générateur de site statique comme MkD
 
 ### Principe :
 
-Un script (souvent en Python) s'exécute au moment du déploiement pour parcourir votre répertoire de documentation, identifier tous les fichiers Markdown, extraire leurs titres (par exemple, le premier titre H1), et générer un fichier JSON ("content_map.json"). Ce fichier JSON contient la liste des chemins de fichiers et de leurs titres.
+Un script (souvent en Python) s'exécute au moment du déploiement pour parcourir votre répertoire de documentation, identifier tous les fichiers Markdown, extraire leurs titres (par exemple, le premier titre H1), et générer un fichier JSON (&#96;content_map.json&#96;). Ce fichier JSON contient la liste des chemins de fichiers et de leurs titres.
 
-Votre JavaScript côté client peut ensuite lire ce "content_map.json" pour construire dynamiquement la barre de navigation et charger le contenu des fichiers Markdown à la demande.
+Votre JavaScript côté client peut ensuite lire ce &#96;content_map.json&#96; pour construire dynamiquement la barre de navigation et charger le contenu des fichiers Markdown à la demande.
 
 ### Avantages :
 
@@ -33,7 +33,7 @@ Vous pouvez intégrer des données provenant de fichiers CSV ou YAML directement
 
 ### Avec MkDocs (recommandé) :
 
-Utilisez des plugins MkDocs comme `mkdocs-macros-plugin` ou `mkdocs-data-plugin`. Ces plugins vous permettent de lire vos fichiers de données pendant la construction du site et d'injecter leur contenu dans vos pages Markdown en utilisant une syntaxe simple.
+Utilisez des plugins MkDocs comme &#96;mkdocs-macros-plugin&#96; ou &#96;mkdocs-data-plugin&#96;. Ces plugins vous permettent de lire vos fichiers de données pendant la construction du site et d'injecter leur contenu dans vos pages Markdown en utilisant une syntaxe simple.
 
 ### Avec HTML/JS pur :
 
@@ -45,19 +45,19 @@ Vous devrez écrire du JavaScript pour :
 
 ## Liens Croisés (Wikilinks)
 
-La syntaxe `[[NomDeLaPage]]` est très pratique pour lier des pages entre elles sans avoir à spécifier le chemin complet.
+La syntaxe &#96;[[NomDeLaPage]]&#96; est très pratique pour lier des pages entre elles sans avoir à spécifier le chemin complet.
 
 ### Avec MkDocs (recommandé) :
 
-Activez l'extension `pymdownx.wikilinks` dans la section `markdown_extensions` de votre `mkdocs.yml`. MkDocs gérera automatiquement la conversion de ces wikilinks en liens HTML valides.
+Activez l'extension &#96;pymdownx.wikilinks&#96; dans la section &#96;markdown_extensions&#96; de votre &#96;mkdocs.yml&#96;. MkDocs gérera automatiquement la conversion de ces wikilinks en liens HTML valides.
 
 ### Avec HTML/JS pur :
 
 Vous devrez écrire du JavaScript pour :
 
 1.  Parcourir le contenu HTML généré à partir du Markdown.
-2.  Identifier les motifs `[[...]]`.
-3.  Les remplacer par des balises `<a href="...">` appropriées.
+2.  Identifier les motifs &#96;[[...]]&#96;.
+3.  Les remplacer par des balises &#96;<a href="...">&#96; appropriées.
 
 ## Coloration Syntaxique de Code
 
@@ -65,18 +65,17 @@ Pour afficher du code avec une belle coloration syntaxique.
 
 ### Avec MkDocs (recommandé) :
 
-Material for MkDocs intègre Pygments pour la coloration syntaxique. Assurez-vous que `pygments` est installé et que vous utilisez les blocs de code Markdown standard (` ```python `).
+Material for MkDocs intègre Pygments pour la coloration syntaxique. Assurez-vous que &#96;pygments&#96; est installé et que vous utilisez les blocs de code Markdown standard (&#96; &#96;&#96;&#96;python &#96; &#96;).
 
 ### Avec HTML/JS pur :
 
-Utilisez une bibliothèque JavaScript comme `highlight.js` ou `Prism.js`. Vous devrez l'inclure dans votre `index.html` et l'initialiser dans votre `script.js`.
+Utilisez une bibliothèque JavaScript comme &#96;highlight.js&#96; ou &#96;Prism.js&#96;. Vous devrez l'inclure dans votre &#96;index.html&#96; et l'initialiser dans votre &#96;script.js&#96;.
 
 ## Personnalisation Avancée du Thème
 
-Material for MkDocs offre de nombreuses options de personnalisation via `mkdocs.yml` et la possibilité de surcharger des blocs de template Jinja2 pour des modifications plus profondes.
+Material for MkDocs offre de nombreuses options de personnalisation via &#96;mkdocs.yml&#96; et la possibilité de surcharger des blocs de template Jinja2 pour des modifications plus profondes.
 
-Si vous utilisez HTML/JS pur, vous avez un contrôle total sur le CSS et le JavaScript, mais vous devez tout construire à partir de zéro.
-`;
+Si vous utilisez HTML/JS pur, vous avez un contrôle total sur le CSS et le JavaScript, mais vous devez tout construire à partir de zéro.`;
   onMount(() => {
     html = marked.parse(markdown);
   });
