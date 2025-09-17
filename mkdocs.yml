@@ -28,10 +28,10 @@ theme:
     logo: material/book-open-variant
 
 nav:
-  - Accueil: index.html
-  - English CV: cv_en.html
-  - Réalisations: achievements.html
-  - CV Imprimable: cv_imprimable.html
+  - Accueil: index.md
+  - English CV: cv_en.md
+  - Réalisations: achievements.md
+  - CV Imprimable: cv_imprimable.md
 
 markdown_extensions:
   - admonition
