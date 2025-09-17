@@ -1,1 +1,1 @@
-<iframe src="svelte-3d-viewer/src/lib/docs/svelte3dintegration" width="100%" height="800px" style="border:none;"></iframe>
+<iframe src="http://localhost:5173/svelte_3d_integration" width="100%" height="800px" style="border:none;"></iframe>
