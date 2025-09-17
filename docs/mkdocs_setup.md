@@ -1,1 +1,1 @@
-<iframe src="http://localhost:5173/mkdocs_setup" width="100%" height="800px" style="border:none;"></iframe>
+<iframe src="/victorien-djontso-cv/svelte-3d-viewer/mkdocs_setup" width="100%" height="800px" style="border:none;"></iframe>
