@@ -1,0 +1,48 @@
+name: Build and deploy MkDocs + Svelte site
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install and build SvelteKit
+        working-directory: ./svelte-3d-viewer
+        run: |
+          npm ci
+          npm run build
+
+      - name: Copy Svelte build into MkDocs docs_dir
+        run: |
+          rm -rf svelte-3d-viewer/src/lib/content/svelte-3d-viewer
+          mkdir -p svelte-3d-viewer/src/lib/content/svelte-3d-viewer
+          cp -r svelte-3d-viewer/build/* svelte-3d-viewer/src/lib/content/svelte-3d-viewer/
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install MkDocs deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Build MkDocs
+        run: |
+          mkdocs build --strict
+
+      - name: Deploy to GitHub Pages
+        run: |
+          mkdocs gh-deploy --force
+
