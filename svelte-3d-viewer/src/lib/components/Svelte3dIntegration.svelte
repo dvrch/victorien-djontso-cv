@@ -11,10 +11,23 @@
   onMount(() => {
     init();
     animate();
+
+    // Initial resize call
+    onWindowResize();
+
+    window.addEventListener('resize', onWindowResize);
+
+    return () => {
+      window.removeEventListener('resize', onWindowResize);
+    };
   });
 
   function init() {
-    camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.01, 1000);
+    // Use container dimensions, not window
+    const width = container.clientWidth;
+    const height = container.clientHeight;
+
+    camera = new THREE.PerspectiveCamera(50, width / height, 0.01, 1000);
     camera.position.z = 15;
 
     scene = new THREE.Scene();
@@ -39,19 +52,23 @@
     );
 
     renderer = new THREE.WebGLRenderer({ antialias: true });
-    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.setSize(width, height);
     container.appendChild(renderer.domElement);
 
     controls = new OrbitControls(camera, renderer.domElement);
     controls.enableDamping = true;
-
-    window.addEventListener('resize', onWindowResize);
   }
 
   function onWindowResize() {
-    camera.aspect = window.innerWidth / window.innerHeight;
+    if (!container || !renderer) return;
+
+    const width = container.clientWidth;
+    const height = container.clientHeight;
+
+    camera.aspect = width / height;
     camera.updateProjectionMatrix();
-    renderer.setSize(window.innerWidth, window.innerHeight);
+
+    renderer.setSize(width, height);
   }
 
   function animate() {
@@ -61,15 +78,22 @@
       spaceship.rotation.y += 0.005;
     }
     
-    controls.update();
-    renderer.render(scene, camera);
+    if (controls) {
+      controls.update();
+    }
+    
+    if (renderer && scene && camera) {
+      renderer.render(scene, camera);
+    }
   }
 </script>
 
-<div bind:this={container} style="width: 100%; height: 80vh;"></div>
+<div bind:this={container} class="viewer-container"></div>
 
 <style>
-  div {
+  .viewer-container {
+    width: 100%;
+    height: 80vh;
     border: 1px solid #ccc;
   }
 </style>
