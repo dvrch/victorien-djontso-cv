@@ -1,10 +1,18 @@
 <script>
   import { marked } from 'marked';
+  import { base } from '$app/paths';
   export let data;
+
+  // Convertit le Markdown en HTML et préfixe les liens/ressources absolus avec paths.base
+  const rawHtml = marked.parse(data.content);
+  const html = rawHtml
+    .replaceAll('src="/', `src="${base}/`)
+    .replaceAll('href="/', `href="${base}/`);
 </script>
 
 <div class="markdown-body">
-  {@html marked(data.content)}
+  {@html html}
+  
 </div>
 
 <style>
