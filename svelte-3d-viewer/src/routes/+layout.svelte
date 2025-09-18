@@ -1,4 +1,5 @@
 <script>
+  import { base } from '$app/paths';
   export let data;
 </script>
 
@@ -7,7 +8,7 @@
     <ul>
       {#each data.posts as page}
         <li>
-          <a href="/{page.slug}">{page.title}</a>
+          <a href="{base}/{page.slug}">{page.title}</a>
         </li>
       {/each}
     </ul>
