@@ -1,9 +1,4 @@
-<script>
-  import { onMount } from 'svelte';
-  import { marked } from 'marked';
-  let html = '';
-  let container;
-  const markdown = `# Comprendre GitHub Actions
+# Comprendre GitHub Actions
 
 GitHub Actions est une plateforme d'intégration continue (CI) et de déploiement continu (CD) directement intégrée à GitHub. Elle vous permet d'automatiser, de personnaliser et d'exécuter vos workflows de développement directement dans votre dépôt GitHub.
 
@@ -19,12 +14,12 @@ GitHub Actions est une plateforme d'intégration continue (CI) et de déploiemen
 *   **Workflow :** Un processus automatisé composé d'une ou plusieurs tâches (jobs).
 *   **Job :** Un ensemble d'étapes (steps) qui s'exécutent sur le même runner.
 *   **Step :** Une tâche individuelle qui peut exécuter une commande (shell) ou utiliser une action (action).
-*   **Action :** Une application personnalisée ou réutilisable qui effectue une tâche spécifique (par exemple, \`actions/checkout\` pour cloner votre dépôt, \`actions/setup-python\` pour configurer Python).
+*   **Action :** Une application personnalisée ou réutilisable qui effectue une tâche spécifique (par exemple, `actions/checkout` pour cloner votre dépôt, `actions/setup-python` pour configurer Python).
 *   **Runner :** Le serveur qui exécute votre workflow. GitHub fournit des runners hébergés (machines virtuelles) ou vous pouvez héberger les vôtres.
 
 ## Structure d'un Workflow (.yml)
 
-Les workflows sont définis dans des fichiers \`.yml\` (YAML) situés dans le répertoire \`.github/workflows/\` de votre dépôt.
+Les workflows sont définis dans des fichiers `.yml` (YAML) situés dans le répertoire `.github/workflows/` de votre dépôt.
 
 ~~~yaml
 name: Mon Premier Workflow
@@ -54,13 +49,4 @@ jobs:
 
 ~~~
 
-Ce workflow simple clone le dépôt, configure Python, installe MkDocs et son thème, puis déploie le site sur GitHub Pages. Nous verrons plus en détail comment adapter cela à nos besoins spécifiques.`;
-
-  onMount(() => {
-    html = marked.parse(markdown);
-  });
-</script>
-
-<div class="markdown-body" bind:this={container}>
-  {@html html}
-</div>
+Ce workflow simple clone le dépôt, configure Python, installe MkDocs et son thème, puis déploie le site sur GitHub Pages. Nous verrons plus en détail comment adapter cela à nos besoins spécifiques.

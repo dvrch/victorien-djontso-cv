@@ -1,9 +1,4 @@
-<script>
-  import { onMount } from 'svelte';
-  import { marked } from 'marked';
-  let html = '';
-  let container;
-  const markdown = `# VICTORIEN DJONTSO
+# VICTORIEN DJONTSO
 
 # **Architect & Urban Planner / Developer / BIM & 3D Artist / Digital Art**
 
@@ -115,12 +110,4 @@ Innovative Architect and Developer with a dual expertise in urban planning and 3
 ### SCIENTIFIC BACCALAUREATE SERIES "C"
 
 - **Mathematics and Physical Sciences**
-  - Lycée Classique de Bafoussam - September 2013`;
-  onMount(() => {
-    html = marked.parse(markdown);
-  });
-</script>
-
-<div class="markdown-body" bind:this={container}>
-  {@html html}
-</div>
+  - Lycée Classique de Bafoussam - September 2013

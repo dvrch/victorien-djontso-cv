@@ -1,13 +1,8 @@
-<script>
-  import { onMount } from 'svelte';
-  import { marked } from 'marked';
-  let html = '';
-  let container;
-  const markdown = `# MkDocs : Configuration de Base et Personnalisation
+# MkDocs : Configuration de Base et Personnalisation
 
 MkDocs est un générateur de site statique rapide, simple et absolument génial, conçu pour construire des sites de documentation de projet. Il prend vos fichiers Markdown et les transforme en un site web entièrement navigable.
 
-## Fichier de Configuration (\`mkdocs.yml`)
+## Fichier de Configuration (`mkdocs.yml`)
 
 Le cœur de votre site MkDocs est le fichier `mkdocs.yml`. C'est là que vous définissez le nom de votre site, sa navigation, le thème, et d'autres paramètres.
 
@@ -103,12 +98,4 @@ Avant de déployer, vous pouvez prévisualiser votre site localement. Assurez-vo
 mkdocs serve
 ~~~
 
-Ouvrez votre navigateur à `http://127.0.0.1:8000` pour voir votre site.`;
-  onMount(() => {
-    html = marked.parse(markdown);
-  });
-</script>
-
-<div class="markdown-body" bind:this={container}>
-  {@html html}
-</div>
+Ouvrez votre navigateur à `http://127.0.0.1:8000` pour voir votre site.
