@@ -1,6 +1,6 @@
 <script>
   import * as THREE from 'three';
-  import { onMount } from 'svelte';
+  import { onMount, tick } from 'svelte';
   import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
   import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 
@@ -8,12 +8,10 @@
   let camera, scene, renderer, controls;
   let spaceship;
 
-  onMount(() => {
+  onMount(async () => {
+    await tick(); // Wait for CSS to be applied and container to have a size
     init();
     animate();
-
-    // Initial resize call
-    onWindowResize();
 
     window.addEventListener('resize', onWindowResize);
 
