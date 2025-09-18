@@ -36,6 +36,7 @@ nav:
   - GitHub Actions: github-actions-basics.md
   - Problèmes courants: common-issues-and-solutions.md
   - Sujets avancés: advanced-topics.md
+  - Intégration 3D: integration-3d.md
 
 markdown_extensions:
   - admonition
