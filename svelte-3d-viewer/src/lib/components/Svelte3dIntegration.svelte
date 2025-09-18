@@ -1,6 +1,7 @@
 <script>
   import * as THREE from 'three';
   import { onMount, tick } from 'svelte';
+  import { base } from '$app/paths';
   import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
   import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 
@@ -38,7 +39,7 @@
 
     const loader = new GLTFLoader();
     loader.load(
-      '/models/spaceship.glb',
+      `${base}/models/spaceship.glb`,
       function (gltf) {
         spaceship = gltf.scene;
         scene.add(spaceship);
