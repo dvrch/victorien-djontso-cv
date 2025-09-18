@@ -13,7 +13,9 @@ Architecte et développeur innovant avec une double expertise en urbanisme et te
 ## ACTIVITÉS RÉCENTES MARQUANTES
 
 ![0](/images/portfolio/Img C28_ 24-06-23_9 - Photo.jpeg)
+
 ![1](/images/portfolio/Affiche de chantier_www.beliris.be.jpeg)
+
 ![2](/images/portfolio/hero-bg.jpg)
 
 ## RÉFÉRENCES PROFESSIONNELLES
