@@ -15,7 +15,7 @@
 
   function init() {
     camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.01, 1000);
-    camera.position.z = 50;
+    camera.position.z = 15;
 
     scene = new THREE.Scene();
     scene.background = new THREE.Color(0xcccccc);
@@ -66,7 +66,7 @@
   }
 </script>
 
-<div bind:this={container} style="width: 100%; height: 400px;"></div>
+<div bind:this={container} style="width: 100%; height: 80vh;"></div>
 
 <style>
   div {
