@@ -4,6 +4,7 @@
 
 # Build artifacts
 /svelte-3d-viewer/build
+/svelte-3d-viewer/src/lib/content/svelte-3d-viewer
 
 # OS-specific
 .DS_Store
