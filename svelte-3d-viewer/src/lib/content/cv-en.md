@@ -12,9 +12,9 @@ Innovative Architect and Developer with a dual expertise in urban planning and 3
 
 ## RECENT HIGHLIGHTS
 
-![0](/images/portfolio/Img C28_ 24-06-23_9 - Photo.jpeg)
-![1](/images/portfolio/Affiche de chantier_www.beliris.be.jpeg)
-![2](/images/portfolio/hero-bg.jpg)
+![0](</images/portfolio/Img C28_ 24-06-23_9 - Photo.jpeg>)
+![1](</images/portfolio/Affiche de chantier_www.beliris.be.jpeg>)
+![2](</images/portfolio/hero-bg.jpg>)
 
 ## PROFESSIONAL REFERENCES
 
