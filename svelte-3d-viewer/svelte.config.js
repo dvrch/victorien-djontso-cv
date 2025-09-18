@@ -11,8 +11,8 @@ const config = {
 			precompress: false,
 			strict: true
 		}),
-			paths: {
-				base: process.env.NODE_ENV === 'production' ? '/victorien-djontso-cv/svelte-3d-viewer' : '',
+		paths: {
+			base: process.env.NODE_ENV === 'production' ? '/victorien-djontso-cv/svelte-3d-viewer' : '',
 		}
 	}
 };

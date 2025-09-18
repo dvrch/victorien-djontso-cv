@@ -11,7 +11,7 @@ MkDocs est un générateur de site statique rapide, simple et absolument génial
 
 Le cœur de votre site MkDocs est le fichier `mkdocs.yml`. C'est là que vous définissez le nom de votre site, sa navigation, le thème, et d'autres paramètres.
 
-```yaml
+~~~yaml
 site_name: Mon Super Guide
 site_url: https://utilisateur.github.io/mon-super-guide/
 site_description: Un guide pour apprendre MkDocs et GitHub Actions.
@@ -76,13 +76,13 @@ markdown_extensions:
 # Plugins MkDocs (pour des fonctionnalités plus complexes)
 plugins:
   - search
-```
+~~~
 
 ## Structure des Fichiers
 
 Votre documentation Markdown doit être placée dans le répertoire spécifié par `docs_dir` (généralement `docs/`).
 
-```
+~~~
 mon-super-guide/
 ├── mkdocs.yml
 ├── .github/
@@ -99,9 +99,9 @@ mon-super-guide/
 
 Avant de déployer, vous pouvez prévisualiser votre site localement. Assurez-vous d'avoir MkDocs et le thème Material installés (`pip install mkdocs mkdocs-material`).
 
-```bash
+~~~bash
 mkdocs serve
-```
+~~~
 
 Ouvrez votre navigateur à `http://127.0.0.1:8000` pour voir votre site.`;
   onMount(() => {

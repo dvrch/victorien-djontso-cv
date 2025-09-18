@@ -26,7 +26,7 @@ GitHub Actions est une plateforme d'intégration continue (CI) et de déploiemen
 
 Les workflows sont définis dans des fichiers \`.yml\` (YAML) situés dans le répertoire \`.github/workflows/\` de votre dépôt.
 
-\`\`\`yaml
+~~~yaml
 name: Mon Premier Workflow
 
 on:
@@ -52,7 +52,7 @@ jobs:
       - name: Build and Deploy MkDocs site
         run: mkdocs gh-deploy --force
 
-\`\`\`
+~~~
 
 Ce workflow simple clone le dépôt, configure Python, installe MkDocs et son thème, puis déploie le site sur GitHub Pages. Nous verrons plus en détail comment adapter cela à nos besoins spécifiques.`;
 
