@@ -44,6 +44,15 @@ jobs:
         run: |
           mkdocs build --strict
 
+      - name: Debug listing of built site
+        run: |
+          echo "--- SITE TREE (top) ---"
+          ls -la site | cat
+          echo "--- SVELTE 3D VIEWER TREE ---"
+          ls -la site/svelte-3d-viewer | cat || true
+          echo "--- 3D VIEWER ROUTE TREE ---"
+          ls -la site/svelte-3d-viewer/3d-viewer | cat || true
+
       - name: Configure git for gh-deploy
         run: |
           git config user.name "github-actions[bot]"
