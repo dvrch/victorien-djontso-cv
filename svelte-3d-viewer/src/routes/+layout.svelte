@@ -45,5 +45,7 @@
 
   main {
     padding: 20px;
+    flex: 1;
+    min-width: 0; /* Prevents overflow in flex containers */
   }
 </style>
