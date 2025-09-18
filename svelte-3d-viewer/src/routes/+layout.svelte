@@ -1,23 +1,13 @@
 <script>
-  const pages = [
-    { slug: 'Index', title: 'Accueil' },
-    { slug: 'CvEn', title: 'English CV' },
-    { slug: 'CvImprimable', title: 'CV Imprimable' },
-    { slug: 'Achievements', title: 'Réalisations' },
-    { slug: 'GithubActionsBasics', title: 'GitHub Actions Basics' },
-    { slug: 'MkdocsSetup', title: 'MkDocs Setup' },
-    { slug: 'CommonIssuesAndSolutions', title: 'Common Issues' },
-    { slug: 'AdvancedTopics', title: 'Advanced Topics' },
-    { slug: 'Svelte3dIntegration', title: 'Svelte 3D Integration' },
-  ];
+  export let data;
 </script>
 
 <div class="app">
   <nav class="sidebar">
     <ul>
-      {#each pages as page}
+      {#each data.posts as page}
         <li>
-          <a href="/{page.slug.toLowerCase()}">{page.title}</a>
+          <a href="/{page.slug}">{page.title}</a>
         </li>
       {/each}
     </ul>
