@@ -1,1 +1,0 @@
-<iframe src="/victorien-djontso-cv/svelte-3d-viewer/common_issues_and_solutions" width="100%" height="800px" style="border:none;"></iframe>

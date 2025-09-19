@@ -1,1 +1,0 @@
-<iframe src="../svelte-3d-viewer/3d-viewer/index.html" width="100%" height="600px" frameborder="0"></iframe>
