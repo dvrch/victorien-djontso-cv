@@ -1,1 +1,1 @@
-<iframe src="/victorien-djontso-cv/svelte-3d-viewer/svelte_3d_integration" width="100%" height="800px" style="border:none;"></iframe>
+<iframe src="../svelte-3d-viewer/3d-viewer/index.html" width="100%" height="600px" frameborder="0"></iframe>
