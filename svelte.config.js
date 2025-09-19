@@ -12,12 +12,17 @@ const config = {
 			strict: true
 		}),
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/victorien-djontso-cv' : '',
+			base: '',
+			relative: true
 		},
 		prerender: {
 			entries: ['*', '/3d-viewer']
-		}
-	}
-};
-
-export default config;
+		},
+		adapter: adapter({
+			// default options are shown
+			pages: 'build',
+			assets: 'build',
+			fallback: '404.html',
+			precompress: false,
+			strict: true
+		})
