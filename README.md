@@ -1,25 +1,82 @@
-# Guide Pratique : Déploiement de Documentation avec GitHub Actions et MkDocs
+# Svelte 3D Viewer - Portfolio de Victorien Djontso
 
-Ce dépôt contient un guide pratique détaillé, issu d'une conversation interactive avec l'IA Gemini. Il couvre les étapes, les défis et les solutions pour déployer efficacement votre documentation technique en ligne en utilisant MkDocs et GitHub Actions.
+## Description
 
-## Contenu du Guide
+Application web SvelteKit présentant le portfolio de Victorien Djontso, architecte et développeur spécialisé en BIM et technologies 3D. L'application inclut une visualisation 3D interactive utilisant Three.js.
 
-*   **Comprendre GitHub Actions :** Les bases et pourquoi l'utiliser.
-*   **MkDocs :** Configuration, personnalisation et structure.
-*   **Déploiement sur GitHub Pages :** Étapes et pièges courants.
-*   **Résolution de Problèmes :** Erreurs 404, navigation, thèmes, etc.
-*   **Sujets Avancés :** Génération de carte de contenu, wikilinks, etc.
+## Fonctionnalités
 
-## Accéder au Guide
+- **Portfolio interactif** avec navigation entre différentes sections
+- **Visualisation 3D** avec modèle de vaisseau spatial
+- **CV en ligne** avec formatage Markdown
+- **Interface responsive** avec sidebar de navigation
+- **Pré-rendu statique** pour un déploiement optimal
 
-Le guide est déployé sur GitHub Pages et est accessible via le lien suivant :
+## Structure du projet
 
-[Accéder au Guide](https://dvrch.github.io/victorien-djontso-cv/)
+```
+src/
+├── lib/docs/           # Composants de documentation
+├── routes/             # Pages et routage SvelteKit
+│   ├── [slug]/        # Pages dynamiques
+│   ├── +layout.svelte # Layout principal
+│   └── +page.svelte   # Page d'accueil
+└── app.html           # Template HTML principal
 
-## Contribuer
+static/
+├── images/portfolio/   # Images du portfolio
+├── models/            # Modèles 3D (GLB)
+└── favicon.png        # Icône du site
+```
 
-Si vous trouvez des erreurs, des améliorations ou souhaitez ajouter du contenu, n'hésitez pas à ouvrir une issue ou une Pull Request.
+## Installation et développement
 
-## Licence
+1. **Installer les dépendances :**
+   ```bash
+   npm install
+   ```
 
-Ce projet est sous licence MIT. Voir le fichier [LICENSE.md](LICENSE.md) pour plus de détails.
+2. **Démarrer le serveur de développement :**
+   ```bash
+   npm run dev
+   ```
+
+3. **Construire pour la production :**
+   ```bash
+   npm run build
+   ```
+
+4. **Prévisualiser la version de production :**
+   ```bash
+   npm run preview
+   ```
+
+## Technologies utilisées
+
+- **SvelteKit** - Framework web moderne
+- **Three.js** - Bibliothèque 3D JavaScript
+- **Marked** - Parseur Markdown
+- **Vite** - Outil de build rapide
+
+## Déploiement
+
+L'application est configurée pour être déployée sur GitHub Pages avec le chemin de base `/victorien-djontso-cv/svelte-3d-viewer`.
+
+## Pages disponibles
+
+- **Accueil** - Vue d'ensemble du portfolio
+- **English CV** - CV en anglais
+- **CV Imprimable** - Version imprimable du CV
+- **Réalisations** - Projets et réalisations
+- **GitHub Actions Basics** - Documentation technique
+- **MkDocs Setup** - Configuration MkDocs
+- **Common Issues** - Solutions aux problèmes courants
+- **Advanced Topics** - Sujets avancés
+- **Svelte 3D Integration** - Intégration 3D avec Svelte
+
+## Contact
+
+- **Email :** dvrchipro@gmail.com
+- **GitHub :** [dvrch](https://github.com/dvrch)
+- **LinkedIn :** [djontso-victorien](https://www.linkedin.com/in/djontso-victorien)
+- **YouTube :** [Chaîne YouTube](https://www.youtube.com/channel/UCiq3gafuKtIRvfB5_JGHTAw)
