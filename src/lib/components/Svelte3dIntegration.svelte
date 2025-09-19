@@ -9,7 +9,7 @@
   let camera, scene, renderer, controls;
   let spaceship;
 
-  onMount(async () => {
+  onMount(async () => { console.log('Svelte3dIntegration mounted');
     await tick(); // Wait for CSS to be applied and container to have a size
     init();
     animate();
