@@ -7,7 +7,7 @@ const config = {
 			// default options are shown
 			pages: 'build',
 			assets: 'build',
-			fallback: undefined,
+			fallback: '404.html',
 			precompress: false,
 			strict: true
 		}),
@@ -17,12 +17,8 @@ const config = {
 		},
 		prerender: {
 			entries: ['*', '/3d-viewer']
-		},
-		adapter: adapter({
-			// default options are shown
-			pages: 'build',
-			assets: 'build',
-			fallback: '404.html',
-			precompress: false,
-			strict: true
-		})
+		}
+	}
+};
+
+export default config;
