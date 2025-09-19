@@ -8,7 +8,7 @@
     <ul>
       {#each data.posts as page}
         <li>
-          <a href="{base}/{page.slug}">{page.title}</a>
+          <a href={base + '/' + page.slug} sveltekit:prefetch>{page.title}</a>
         </li>
       {/each}
     </ul>
