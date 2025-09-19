@@ -1,10 +1,11 @@
+
 import adapter from '@sveltejs/adapter-static';
 
-/** @type {import('@sveltejs/kit').Config} */
+const dev = process.env.NODE_ENV === 'development';
+
 const config = {
 	kit: {
 		adapter: adapter({
-			// default options are shown
 			pages: 'build',
 			assets: 'build',
 			fallback: '404.html',
@@ -12,11 +13,10 @@ const config = {
 			strict: true
 		}),
 		paths: {
-			base: '',
-			relative: true
+			base: dev ? '' : '/victorien-djontso-cv'
 		},
 		prerender: {
-			entries: ['*', '/3d-viewer']
+			entries: ['*']
 		}
 	}
 };
