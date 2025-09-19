@@ -1,4 +1,4 @@
-name: Build and deploy MkDocs + Svelte site
+name: Build and deploy Svelte site
 
 on:
   push:
@@ -24,41 +24,8 @@ jobs:
           npm ci
           npm run build
 
-      - name: Copy Svelte build into MkDocs docs_dir
-        run: |
-          rm -rf svelte-3d-viewer/src/lib/content/svelte-3d-viewer
-          mkdir -p svelte-3d-viewer/src/lib/content/svelte-3d-viewer
-          cp -r svelte-3d-viewer/build/* svelte-3d-viewer/src/lib/content/svelte-3d-viewer/
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
-
-      - name: Install MkDocs deps
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-
-      - name: Build MkDocs
-        run: |
-          mkdocs build --strict
-
-      - name: Debug listing of built site
-        run: |
-          echo "--- SITE TREE (top) ---"
-          ls -la site | cat
-          echo "--- SVELTE 3D VIEWER TREE ---"
-          ls -la site/svelte-3d-viewer | cat || true
-          echo "--- 3D VIEWER ROUTE TREE ---"
-          ls -la site/svelte-3d-viewer/3d-viewer | cat || true
-
-      - name: Configure git for gh-deploy
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
       - name: Deploy to GitHub Pages
-        run: |
-          mkdocs gh-deploy --force
-
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./svelte-3d-viewer/build
