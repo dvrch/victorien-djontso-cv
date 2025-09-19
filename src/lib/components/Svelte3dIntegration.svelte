@@ -39,7 +39,7 @@
 
     const loader = new GLTFLoader();
     loader.load(
-      `${base}/models/spaceship.glb`,
+      `/victorien-djontso-cv/models/spaceship.glb`,
       function (gltf) {
         spaceship = gltf.scene;
         scene.add(spaceship);
