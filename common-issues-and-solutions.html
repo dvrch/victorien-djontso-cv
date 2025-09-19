@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		
+		<link href="./_app/immutable/assets/0.d0wfhCTj.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/4.xrFIWmJm.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.DkVv7xr4.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/DSxTQmMT.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Ch9y0OAF.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/D0iwhpLH.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/C0v-z_oL.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.DV9zu7jW.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/C1FmrZbK.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/IHki7fMi.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.qDVnpTei.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/D6YF6ztN.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/4.D9gPnuoO.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <div class="app svelte-13tzkbm"><nav class="sidebar svelte-13tzkbm"><ul class="svelte-13tzkbm"><li class="svelte-13tzkbm"><a href="./index" class="svelte-13tzkbm">Home</a> </li><li class="svelte-13tzkbm"><a href="./cv-en" class="svelte-13tzkbm">CV (English)</a> </li><li class="svelte-13tzkbm"><a href="./cv-imprimable" class="svelte-13tzkbm">CV (Français)</a> </li><li class="svelte-13tzkbm"><a href="./achievements" class="svelte-13tzkbm">Achievements</a> </li><li class="svelte-13tzkbm"><a href="./github-actions-basics" class="svelte-13tzkbm">GitHub Actions Basics</a> </li><li class="svelte-13tzkbm"><a href="./mkdocs-setup" class="svelte-13tzkbm">MkDocs Setup</a> </li><li class="svelte-13tzkbm"><a href="./common-issues-and-solutions" class="svelte-13tzkbm">Common Issues</a> </li><li class="svelte-13tzkbm"><a href="./advanced-topics" class="svelte-13tzkbm">Advanced Topics</a> </li><li class="svelte-13tzkbm"><a href="./3d-viewer" class="svelte-13tzkbm">3D Viewer</a> </li></ul></nav> <main class="svelte-13tzkbm"><div class="markdown-body svelte-1uj9tv6"><!-- HTML_TAG_START --><h1>Problèmes Courants et Solutions</h1>
+<p>Au cours de notre échange avec Gemini, nous avons rencontré et résolu plusieurs problèmes typiques lors du déploiement d&#39;un site MkDocs sur GitHub Pages. Voici un résumé des défis et de leurs solutions.</p>
+<h2>Erreurs 404 sur GitHub Pages</h2>
+<p>L&#39;erreur 404 est l&#39;un des problèmes les plus frustrants. Elle indique que le serveur ne trouve pas la ressource demandée. Pour un site GitHub Pages, cela est souvent lié à la configuration des chemins.</p>
+<h3>Causes et Solutions :</h3>
+<ol>
+<li><p><strong><code>docs_dir</code> incorrect dans <code>mkdocs.yml</code> :</strong></p>
+<ul>
+<li><strong>Problème :</strong> Si <code>docs_dir</code> pointe vers le répertoire racine de votre dépôt (<code>docs_dir: .</code>), MkDocs peut générer des chemins qui ne sont pas compatibles avec la structure attendue par GitHub Pages pour un site de projet.</li>
+<li><strong>Solution :</strong> Toujours utiliser un sous-répertoire dédié pour votre documentation, par exemple <code>docs_dir: docs</code>. Make sure that all your Markdown files are well in this directory.</li>
+</ul>
+</li>
+<li><p><strong><code>site_dir</code> à l&#39;intérieur de <code>docs_dir</code> :</strong></p>
+<ul>
+<li><strong>Problème :</strong> Si le répertoire de sortie (<code>site_dir</code>) est configuré pour être à l&#39;intérieur de votre répertoire de documentation (<code>docs_dir</code>), cela peut créer des boucles infinies ou des problèmes de copie lors du déploiement.</li>
+<li><strong>Solution :</strong> Make sure that <code>site_dir</code> (by default <code>site</code>) is a sibling directory of <code>docs_dir</code>. This is the default behavior of MkDocs, but it is good to check.</li>
+</ul>
+</li>
+<li><p><strong><code>index.html</code> manquant à la racine du site généré :</strong></p>
+<ul>
+<li><strong>Problème :</strong> Pour les sites de projet GitHub Pages (<code>utilisateur.github.io/nom-du-depot/</code>), GitHub Pages s&#39;attend à trouver un <code>index.html</code> à la racine du chemin du projet. Si votre navigation MkDocs ne commence pas par un fichier qui se compile en <code>index.html</code> à la racine, vous obtiendrez une 404.</li>
+<li><strong>Solution :</strong> Créez un fichier <code>index.md</code> dans votre <code>docs_dir</code> and make sure it is the first entry in your <code>nav</code> section of <code>mkdocs.yml</code> (for example, <code>- Accueil: index.md</code>).</li>
+</ul>
+</li>
+<li><p><strong>Problèmes de chemins relatifs avec <code>site_url</code> et <code>use_directory_urls</code> :</strong></p>
+<ul>
+<li><strong>Problème :</strong> MkDocs doit générer des liens qui fonctionnent correctement dans le sous-répertoire de votre dépôt GitHub Pages.</li>
+<li><strong>Solution :</strong> Définissez correctement <code>site_url</code> dans votre <code>mkdocs.yml</code> avec l&#39;URL complète de votre site GitHub Pages (par exemple, <code>https://dvrch.github.io/Le_Pont_Procedural/</code>). Make sure that <code>use_directory_urls: true</code> is enabled for clean URLs.</li>
+</ul>
+</li>
+<li><p><strong>Conflit avec Jekyll (<code>.nojekyll</code>) :</strong></p>
+<ul>
+<li><strong>Problème :</strong> GitHub Pages utilise par défaut Jekyll pour construire les sites. Si vous utilisez MkDocs (ou un autre générateur de site statique), Jekyll peut interférer avec le processus de construction et causer des problèmes.</li>
+<li><strong>Solution :</strong> Ajoutez un fichier vide nommé <code>.nojekyll</code> à la racine de votre dépôt. Cela indique à GitHub Pages de ne pas traiter votre site avec Jekyll.</li>
+</ul>
+</li>
+</ol>
+<h2>Problèmes de Navigation et d&#39;Affichage</h2>
+<h3>Navigation Horizontale vs. Verticale</h3>
+<ul>
+<li><strong>Problème :</strong> Vous souhaitez une navigation entièrement verticale sur la gauche, but horizontal tabs appear at the top.</li>
+<li><strong>Solution :</strong> The <code>navigation.tabs</code> feature in the <code>features</code> section of your <code>mkdocs.yml</code> creates horizontal tabs. For purely vertical navigation, disable or remove this feature.</li>
+</ul>
+<h3>Sections de Navigation non Repliables par Défaut</h3>
+<ul>
+<li><strong>Problème :</strong> Les sous-éléments de votre navigation sont toujours visibles sans avoir à cliquer sur la section principale pour la dérouler.</li>
+<li><strong>Solution :</strong> La fonctionnalité <code>navigation.sections</code> is supposed to handle this. If it doesn&#39;t work as expected, it may be due to a browser cache or a JavaScript conflict. Make sure <code>navigation.sections</code> is enabled and that <code>navigation.expand</code> (which unfolds everything by default) is disabled. Adding <code>navigation.instant</code> can sometimes help with JavaScript initialization.</li>
+</ul>
+<h3>Intégration de la Table des Matières dans la Navigation</h3>
+<ul>
+<li><strong>Problème :</strong> La table des Matières de la page actuelle est intégrée à la barre latérale de navigation, rendant la navigation encombrée.</li>
+<li><strong>Solution :</strong> La fonctionnalité <code>toc.integrate</code> is responsible for this. Disable it in the <code>features</code> section of your <code>mkdocs.yml</code> so that the table of contents remains on the main page and the sidebar only displays the global navigation structure.</li>
+</ul>
+<h2>Problèmes de Caractères Spéciaux dans <code>mkdocs.yml</code></h2>
+<ul>
+<li><strong>Problème :</strong> Erreurs de syntaxe YAML (<code>mapping values are not allowed here</code>) due to special characters (like the colon <code>:</code> ) or apostrophes (<code>&#39;</code>) in navigation titles.</li>
+<li><strong>Solution :</strong> Always enclose navigation titles containing special characters or apostrophes in single quotes (<code>&#39;Titre: Sous-titre&#39;</code>) in your <code>mkdocs.yml</code>.</li>
+</ul>
+<!-- HTML_TAG_END --> </div></main> </div> 
+			
+			<script>
+				{
+					__sveltekit_kgkvcr = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						assets: "/svelte-3d-viewer"
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("./_app/immutable/entry/start.DkVv7xr4.js"),
+						import("./_app/immutable/entry/app.DV9zu7jW.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 4],
+							data: [null,null],
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
