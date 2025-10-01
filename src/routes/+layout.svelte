@@ -1,7 +1,12 @@
 <script>
   import { base } from '$app/paths';
+  import { navigating } from '$app/stores';
   export let data;
 </script>
+
+{#if $navigating}
+  <div class="loading-indicator">Chargement...</div>
+{/if}
 
 <div class="app">
   <nav class="sidebar">
@@ -48,5 +53,16 @@
     padding: 20px;
     flex: 1;
     min-width: 0; /* Prevents overflow in flex containers */
+  }
+
+  .loading-indicator {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    z-index: 100;
   }
 </style>
