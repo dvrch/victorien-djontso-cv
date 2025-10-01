@@ -4,8 +4,8 @@
   export let data;
 
   // Convertit le Markdown en HTML et préfixe les liens/ressources absolus avec paths.base
-  const rawHtml = marked.parse(data.content);
-  const html = rawHtml
+  $: rawHtml = marked.parse(data.content);
+  $: html = rawHtml
     .replaceAll('src="/', `src="${base}/`)
     .replaceAll('href="/', `href="${base}/`);
 </script>

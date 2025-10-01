@@ -12,7 +12,7 @@ Architecte et développeur innovant avec une double expertise en urbanisme et te
 
 Cette page intègre la visionneuse 3D Svelte dans le site MkDocs via un iframe.
 
-<iframe src="/3d-viewer" width="100%" height="600" style="border:0; max-width: 100%;"></iframe>
+<iframe src="/3d-viewer-embed" width="100%" height="600" style="border:0; max-width: 100%;"></iframe>
 
 Si l'iframe ne charge pas, ouvrez directement la visionneuse ici :
 
