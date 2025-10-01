@@ -1,10 +1,4 @@
-const e=`# Intégration 3D
-
-Cette page intègre la visionneuse 3D Svelte.
-
-<iframe src="/3d-viewer-embed" width="100%" height="600" style="border:0; max-width: 100%;"></iframe>
-
-# VICTORIEN DJONTSO
+const e=`# VICTORIEN DJONTSO
 
 # **Architecte & Urbanisme / Développeur / BIM & 3D-artiste / art numérique**
 
@@ -18,7 +12,7 @@ Architecte et développeur innovant avec une double expertise en urbanisme et te
 
 ## ACTIVITÉS RÉCENTES MARQUANTES
 
-<iframe src="/3d-viewer-embed" width="100%" height="600" style="border:0; max-width: 100%;"></iframe>
+<iframe src="/3d-viewer" width="100%" height="600" style="border:0; max-width: 100%;"></iframe>
 
 ![0](/images/portfolio/Img%20C28_%2024-06-23_9%20-%20Photo.jpeg)
 
