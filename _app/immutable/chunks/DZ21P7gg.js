@@ -114,5 +114,4 @@ Architecte et développeur innovant avec une double expertise en urbanisme et te
 ### BACCALAURÉAT SCIENTIFIQUE SÉRIE "C"
 
 - **Mathématiques et Sciences Physiques**
-  - Lycée Classique de Bafoussam - Septembre 2013
-`;export{e as default};
+  - Lycée Classique de Bafoussam - Septembre 2013`;export{e as default};
