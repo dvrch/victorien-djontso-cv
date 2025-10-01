@@ -12,7 +12,7 @@ Innovative Architect and Developer with a dual expertise in urban planning and 3
 
 # Intégration 3D
 
-<iframe src="/3d-viewer-embed" width="100%" height="600" style="border:0; max-width: 100%;"></iframe>
+<iframe src="/3d-viewer" width="100%" height="600" style="border:0; max-width: 100%;"></iframe>
 
 ## RECENT HIGHLIGHTS
 
