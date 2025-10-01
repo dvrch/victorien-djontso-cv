@@ -10,6 +10,16 @@
 
 Innovative Architect and Developer with a dual expertise in urban planning and 3D technologies. Passionate about leveraging BIM and programming skills to contribute to large-scale projects. Actively seeking opportunities to apply my skills in a challenging environment.
 
+# Intégration 3D
+
+Cette page intègre la visionneuse 3D Svelte dans le site MkDocs via un iframe.
+
+<iframe src="../svelte-3d-viewer/3d-viewer.html" width="100%" height="600" style="border:0; max-width: 100%;"></iframe>
+
+Si l'iframe ne charge pas, ouvrez directement la visionneuse ici :
+
+- Ouvrir la visionneuse en plein écran après déploiement: /victorien-djontso-cv/svelte-3d-viewer/3d-viewer.html
+
 ## RECENT HIGHLIGHTS
 
 ![0](/images/portfolio/Img%20C28_%2024-06-23_9%20-%20Photo.jpeg)
