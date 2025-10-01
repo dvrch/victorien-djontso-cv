@@ -8,6 +8,16 @@ const e=`# VICTORIEN DJONTSO
 
 ## PROFIL
 Architecte et développeur innovant avec une double expertise en urbanisme et technologies 3D. Passionné par l'application des compétences en BIM et en programmation pour contribuer à des projets d'envergure. À la recherche active d'opportunités pour mettre en œuvre mes compétences dans un environnement stimulant.
+# Intégration 3D
+
+Cette page intègre la visionneuse 3D Svelte dans le site MkDocs via un iframe.
+
+<iframe src="/3d-viewer" width="100%" height="600" style="border:0; max-width: 100%;"></iframe>
+
+Si l'iframe ne charge pas, ouvrez directement la visionneuse ici :
+
+- Ouvrir la visionneuse en plein écran après déploiement: /victorien-djontso-cv/svelte-3d-viewer/3d-viewer.html
+
 ## RÉFÉRENCES PROFESSIONNELLES
 - **NOCA N°414** (Ordre National des Architectes du Cameroun)
 ## COMPÉTENCES
@@ -70,4 +80,5 @@ Architecte et développeur innovant avec une double expertise en urbanisme et te
 ### BACCALAURÉAT SCIENTIFIQUE SÉRIE "C"
 
 - **Mathématiques et Sciences Physiques**
-  - Lycée Classique de Bafoussam - Septembre 2013`;export{e as default};
+  - Lycée Classique de Bafoussam - Septembre 2013
+`;export{e as default};

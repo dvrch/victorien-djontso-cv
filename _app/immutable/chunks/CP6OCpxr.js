@@ -10,6 +10,10 @@ const n=`# VICTORIEN DJONTSO
 
 Innovative Architect and Developer with a dual expertise in urban planning and 3D technologies. Passionate about leveraging BIM and programming skills to contribute to large-scale projects. Actively seeking opportunities to apply my skills in a challenging environment.
 
+# Intégration 3D
+
+<iframe src="/3d-viewer" width="100%" height="600" style="border:0; max-width: 100%;"></iframe>
+
 ## RECENT HIGHLIGHTS
 
 ![0](/images/portfolio/Img%20C28_%2024-06-23_9%20-%20Photo.jpeg)
@@ -110,4 +114,5 @@ Innovative Architect and Developer with a dual expertise in urban planning and 3
 ### SCIENTIFIC BACCALAUREATE SERIES "C"
 
 - **Mathematics and Physical Sciences**
-  - Lycée Classique de Bafoussam - September 2013`;export{n as default};
+  - Lycée Classique de Bafoussam - September 2013
+`;export{n as default};
