@@ -12,6 +12,7 @@ Architecte et développeur innovant avec une double expertise en urbanisme et te
 
 ## ACTIVITÉS RÉCENTES MARQUANTES
 
+<iframe src="/3d-viewer" width="100%" height="600" style="border:0; max-width: 100%;"></iframe>
 
 ![0](/images/portfolio/Img%20C28_%2024-06-23_9%20-%20Photo.jpeg)
 
