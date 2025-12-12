@@ -17,7 +17,7 @@
     scene.background = new THREE.Color(0x87CEEB);
 
     const camera = new THREE.PerspectiveCamera(105, width / height, 0.1, 1000);
-    camera.position.set(0, -9, -20);
+    camera.position.set(0, 15, 20);
     camera.rotation.y = Math.PI / 2; // 60° vers la droite
     const renderer = new THREE.WebGLRenderer({ antialias: true });
     renderer.setSize(width, height);
