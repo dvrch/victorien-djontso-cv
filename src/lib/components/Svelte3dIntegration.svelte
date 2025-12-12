@@ -23,11 +23,11 @@
     renderer.setSize(width, height);
     container.appendChild(renderer.domElement);
 
-    const planeGeometry = new THREE.PlaneGeometry(10, 10);
-    const planeMaterial = new THREE.MeshBasicMaterial({ color: 0x90EE90 });
-    const plane = new THREE.Mesh(planeGeometry, planeMaterial);
-    plane.rotation.x = -Math.PI / 2;
-    scene.add(plane);
+    // const planeGeometry = new THREE.PlaneGeometry(10, 10);
+    // const planeMaterial = new THREE.MeshBasicMaterial({ color: 0x90EE90 });
+    // const plane = new THREE.Mesh(planeGeometry, planeMaterial);
+    // plane.rotation.x = -Math.PI / 2;
+    // scene.add(plane);
 
     const light = new THREE.DirectionalLight(0xffffff);
     light.position.set(0, 5, 5);
