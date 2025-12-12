@@ -57,7 +57,7 @@
 
     const loader = new GLTFLoader();
     loader.load(
-      `${base}/models/yti11.glb`,
+      `${base}/models/spaceship.glb`,
       (gltf) => {
         scene.add(gltf.scene);
         loading = false;
