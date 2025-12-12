@@ -29,10 +29,10 @@
     // plane.rotation.x = -Math.PI / 2;
     // scene.add(plane);
 
-    const light = new THREE.DirectionalLight(0xffffff);
-    light.position.set(0, 5, 5);
+    const light = new THREE.DirectionalLight(0xffffff, 10);
+    light.position.set(0, 5, 10);
     scene.add(light);
-    scene.add(new THREE.AmbientLight(0x404040));
+    scene.add(new THREE.AmbientLight(0x404040, 4));     // lumière ambiante double l intensié
 
     const gridHelper = new THREE.GridHelper(10, 10);
     scene.add(gridHelper);
